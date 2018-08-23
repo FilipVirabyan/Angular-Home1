@@ -1,0 +1,22 @@
+<header>
+    <app-header (messageEvent)="reciveMessage($event)" (removeEvent)="removeElement($event)"></app-header>
+</header>
+
+
+<main>
+    <div *ngFor="let value of message" class="users" >
+        <div  class="userFrame">
+            <p>Name: {{value.name}}</p>
+            <p>Surname: {{value.surname}}</p>
+            <p>Age: {{value.age}}</p>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div id="mainDiv" [ngStyle]="{'background-image':  'url(' + image + ')'}"></div>
+        <div class="smallDiv" *ngFor="let slider of sliderData" [ngStyle]="{'background-image': 'url(' + slider.image + ')'}" (click)='changeColor(slider)'>{{slider.title}}</div>
+    </div>
+</main>
+
+<app-footer></app-footer>
+

@@ -1,0 +1,59 @@
+header{
+    background-color:firebrick;
+    width:100%;
+    height:150px;
+    display: flex;
+    justify-content:center;
+}
+main{
+    width:100%;
+    height: 900px;
+    background-color:#303030;
+    padding: 0;
+}
+.users{
+    display:inline-block;
+}
+
+.userFrame{
+    width:200px;
+    border:2px solid firebrick;
+    border-radius: 8px;
+    margin:10px;
+    background-color:gray;
+}
+
+.userFrame p {
+    display: flex;
+    color:white;
+    font-family:Verdana;
+    font-size:20px;
+    justify-content: center;
+    padding:5px;
+    margin:0;
+}
+
+#mainDiv{
+    height:500px;
+    width:360px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.smallDiv{
+    height:300px;
+    width:260px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.smallDiv img{
+    height: 500px
+}
+.slider{
+    float: right;
+    border:2px solid firebrick;
+    margin:10px 30px;
+}

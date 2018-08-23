@@ -1,0 +1,6 @@
+
+<div class="container">
+    <h1>USERS BASE</h1>
+    <input [ngClass]="{'not-result': results.length === 0 && inputValue.value.length > 0 }"
+           #inputValue type="text"   (keyup)="search(inputValue.value)">
+</div>

@@ -1,0 +1,25 @@
+
+h1{
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 40px;
+    margin-right: 30px;
+}
+input{
+    width: 500px;
+    border:2px solid black;
+    color:black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+input:focus{
+    outline: none;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items:  center
+}
