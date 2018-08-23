@@ -1,7 +1,6 @@
 <header>
-    <app-header (messageEvent)="reciveMessage($event)" (removeEvent)="removeElement($event)"></app-header>
+    <app-header (messageEvent)="reciveMessage($event)"></app-header>
 </header>
-
 
 <main>
     <div *ngFor="let value of message" class="users" >
